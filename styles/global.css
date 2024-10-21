@@ -1,0 +1,60 @@
+*,
+html,
+body,
+section,
+div,
+.row,
+[class*="col"] {
+  font-size: 20px;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--gray);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.adelia-font {
+  font-family: 'Adelia';
+}
+
+.nexa-font {
+  font-family: 'Nexa';
+}
+
+.nexa-heavy-font {
+  font-family: 'Nexa-heavy';
+}
+
+.bluefish-font {
+  font-family: 'Bluefish';
+  letter-spacing: 10px;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.minus {
+  margin-top: -5px;
+}

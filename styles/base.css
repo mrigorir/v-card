@@ -1,0 +1,151 @@
+.main-container {
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.background-image-1 {
+  background-image: url("../assets/section-1-background.png");
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  @media (max-width: 600px) {
+    height: auto;
+  }
+}
+
+.image-section-1 {
+  width: 420px;
+  position: absolute;
+  top: 12px;
+  left: 80px;
+
+  @media (max-width: 600px) {
+    width: 300px;
+    position: inherit;
+    top: initial;
+    left: initial;
+    margin-bottom: 80px;
+  }
+}
+
+.white-circle {
+  height: 120px;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.white-circle,
+.blue-circle-2 {
+  z-index: 1;
+}
+
+.inner-blue-circle,
+.blue-circle-2,
+.white-circle {
+  transform: translateX(-50%);
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  left: 50%;
+}
+
+.blue-circle-2 {
+  background-color: var(--blue);
+  margin-top: -30px;
+  height: 85px;
+}
+
+.inner-blue-circle {
+  background-color: var(--blue);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 0px;
+  display: flex;
+  height: 100px;
+  top: 30px;
+}
+
+.photo {
+  margin-top: -70px;
+  width: 200px;
+
+  @media (max-width: 600px) {
+    width: 100px;
+    margin-top: -100px;
+  }
+}
+
+.zambrano {
+  margin-top: -35px;
+  font-size: 60px;
+  text-transform: uppercase;
+  @media (max-width: 600px) {
+    font-size: 40px;
+    margin-top: -25px;
+  }
+}
+
+.divider {
+  border-top: solid 3px var(--white);
+  width: 25%;
+  margin: 0 auto;
+}
+
+.subtext-info {
+  line-height: 5px;
+  color: var(--white);
+  @media (max-width: 600px) {
+     p {
+      font-size: 18px;
+     }
+  }
+}
+
+.contact-button {
+  background-color: var(--white);
+  padding: 10px 80px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+}
+
+.icon-text {
+  font-size: 12px;
+}
+
+.social-info-container {
+  border: solid 2px var(--white);
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.contact-button,
+.social-info-container {
+  border-radius: 40px;
+}
+
+.social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -28px;
+}
+
+.background-footer {
+  position: absolute;
+  bottom: -50px;
+  width: 600px;
+  z-index: 100;
+}

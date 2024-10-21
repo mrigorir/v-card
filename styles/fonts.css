@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Nexa';
+  src: url('../assets/fonts/Nexa-ExtraLight.ttf') format('truetype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Nexa-heavy';
+  src: url('../assets/fonts/Nexa-Heavy.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Adelia';
+  src: url('../assets/fonts/adelia.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bluefish';
+  src: url('../assets/fonts/Bluefish_Regular\ Demo.otf') format('opentype');
+  font-weight: normal;
+}
