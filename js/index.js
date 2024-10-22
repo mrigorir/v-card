@@ -13,7 +13,7 @@ function dN(e) {
   e.style.display = "none";
 }
 window.addEventListener("load", () => {
-  document.querySelector("#topActions").style.display = "flex";
+  document.querySelector("#topActions").style.display = "block";
   qr.innerHTML = new QRCode({
     content: window.location.href,
     container: "svg-viewbox",
