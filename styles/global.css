@@ -58,3 +58,7 @@ a:hover {
 .minus {
   margin-top: -5px;
 }
+
+.z-index {
+  z-index: 10;
+}

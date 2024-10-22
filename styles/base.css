@@ -123,9 +123,14 @@
   font-size: 12px;
 }
 
-svg {
+.svg-topAction {
   width: 25px;
   height: 25px;
+}
+
+svg {
+  width: 250px;
+  height: 250px;
 } 
 
 .social-info-container {
@@ -152,5 +157,5 @@ svg {
   position: absolute;
   bottom: -50px;
   width: 600px;
-  z-index: 100;
+  z-index: 5;
 }

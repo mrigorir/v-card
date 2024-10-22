@@ -1,0 +1,26 @@
+/* #topActions {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+ 
+} */
+
+/* #topActions > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+} */
+
+#topActions a {
+  padding: 0.75rem;
+  cursor: pointer;
+  border-radius: 100%;
+  line-height: 0;
+  margin-right: 1rem;
+}
+
+
