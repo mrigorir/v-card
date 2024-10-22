@@ -123,6 +123,11 @@
   font-size: 12px;
 }
 
+svg {
+  width: 25px;
+  height: 25px;
+} 
+
 .social-info-container {
   border: solid 2px var(--white);
   width: 280px;
