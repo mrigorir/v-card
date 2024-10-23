@@ -15,6 +15,7 @@
   background-size: cover;
   height: 400px;
   position: relative;
+
   @media (max-width: 600px) {
     height: auto;
   }
@@ -87,6 +88,7 @@
   margin-top: -35px;
   font-size: 60px;
   text-transform: uppercase;
+
   @media (max-width: 600px) {
     font-size: 40px;
     margin-top: -25px;
@@ -101,11 +103,17 @@
 
 .subtext-info {
   line-height: 5px;
+
+  p {
+    font-size: 18px;
+  }
+
   color: var(--white);
+
   @media (max-width: 600px) {
-     p {
-      font-size: 18px;
-     }
+    p {
+      font-size: 14px;
+    }
   }
 }
 
@@ -131,7 +139,7 @@
 svg {
   width: 250px;
   height: 250px;
-} 
+}
 
 .social-info-container {
   border: solid 2px var(--white);
@@ -155,7 +163,7 @@ svg {
 
 .background-footer {
   position: absolute;
-  bottom: -50px;
-  width: 600px;
-  z-index: 5;
+  bottom: 45px;
+  width: 100%;
+  z-index: 3;
 }
