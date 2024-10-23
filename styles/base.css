@@ -1,5 +1,5 @@
 .main-container {
-  width: 600px;
+  width: 480px;
   position: relative;
   overflow: hidden;
 
@@ -21,16 +21,16 @@
 }
 
 .image-section-1 {
-  width: 420px;
+  width: 340px;
   position: absolute;
-  top: 12px;
-  left: 80px;
+  top: 40px;
+  left: 65px;
 
   @media (max-width: 600px) {
     width: 300px;
     position: inherit;
-    top: initial;
-    left: initial;
+    top: 15px;
+    left: -8px;
     margin-bottom: 80px;
   }
 }
