@@ -59,6 +59,10 @@ a:hover {
   margin-top: -5px;
 }
 
+.altus {
+  height: 65px;
+}
+
 .z-index {
   z-index: 10;
 }
