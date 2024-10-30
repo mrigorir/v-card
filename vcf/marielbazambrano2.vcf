@@ -1,0 +1,25 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Marielba Zambrano
+N:Zambrano;Marielba;; ;
+item1.EMAIL;TYPE=INTERNET:marielba@amigoga.com
+item1.X-ABLabel:EMAIL
+TEL;TYPE=CELL:+1-404-536-2399
+ADR;TYPE=WORK:;;3632 Old Chamblee Tucker Rd;Atlanta;GA;30341;US;3632 Old Ch
+ amblee Tucker Rd\nAtlanta\, GA 30341\nUS
+TITLE:CEO Amigo Insurance
+item2.URL:https\://www.amigoga.com
+item2.X-ABLabel:Home Page
+item3.URL:https\://www.instagram.com/amigoinsurancega/?hl=es
+item3.X-ABLabel:Instagram
+item4.URL:https\://www.facebook.com/amigoinsurancega
+item4.X-ABLabel:Facebook
+NOTE:We are dedicated to guiding our clients in the purchase of personal an
+ d commercial insurance\, as well as assisting them with complementary serv
+ ices\, offering personalized\, comprehensive\, and high-quality attention.
+  Our main priority is to ensure our clients' peace of mind through our hig
+ hly trained staff who are committed to the organization.
+PHOTO:https://lh3.googleusercontent.com/contacts/AG6tpzHF7Mu6DN8Y3LnJgeO6dJ
+ 6S0GtfblngHK_XDUJRkGkqASZFMVrq
+CATEGORIES:myContacts
+END:VCARD
